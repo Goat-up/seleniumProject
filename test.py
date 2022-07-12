@@ -29,16 +29,12 @@ try:
     pswElements = wd.find_elements(By.CSS_SELECTOR, '.row input')
     for pswElement in pswElements:
         pswElement.send_keys("123456")
+    wd.back()
 except NoSuchElementException:
     pass
 
 
-# class TestCase(unittest.TestCase):
-#     def test_1_login(self):
-#         print("111111")
-#
-#     def test_2_login(self):
-#         print("222222")
+
 
 
 
