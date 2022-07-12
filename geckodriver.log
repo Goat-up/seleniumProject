@@ -1,0 +1,18 @@
+1657523818489	geckodriver	INFO	Listening on 127.0.0.1:57598
+1657523820495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57599" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zzh\\AppData\\Local\\Temp\\rust_mozprofileyVmDct"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1657523820945	Marionette	INFO	Marionette enabled
+1657523820955	Marionette	INFO	Listening on port 57609
+WebDriver BiDi listening on ws://localhost:57599
+Read port: 57609
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1657523821170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to get D3D11VideoDevice: 0x80004002
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zzh\\AppData\\Local\\Temp\\rust_mozprofileyVmDct\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57599/devtools/browser/dc92d368-1373-4a1b-864c-62bed271afa9
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dj.gzmky.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dj.gzmky.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657523909163	Marionette	INFO	Stopped listening on port 57609
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
