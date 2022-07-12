@@ -16,3 +16,21 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 1657523909163	Marionette	INFO	Stopped listening on port 57609
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 !!! error running onStopped callback: TypeError: callback is not a function
+1657596106606	geckodriver	INFO	Listening on 127.0.0.1:64661
+1657596108685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64662" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zzh\\AppData\\Local\\Temp\\rust_mozprofileOouEY7"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1657596109202	Marionette	INFO	Marionette enabled
+1657596109211	Marionette	INFO	Listening on port 64671
+WebDriver BiDi listening on ws://localhost:64662
+Read port: 64671
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1657596109401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to get D3D11VideoDevice: 0x80004002
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zzh\\AppData\\Local\\Temp\\rust_mozprofileOouEY7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64662/devtools/browser/8bb29f53-cd73-48f6-84a6-d34819f7797a
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dj.gzmky.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dj.gzmky.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657596342692	Marionette	INFO	Stopped listening on port 64671
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
